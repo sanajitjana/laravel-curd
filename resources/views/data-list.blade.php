@@ -69,7 +69,6 @@
                                 </tbody>
                             </table>
                         </div>
-                        {{-- <span>Showing {{ $datas->firstItem() }} to {{ $datas->lastItem() }} of {{ $datas->total() }} results</span> --}}
                     </div>
                 </div>
             </div>
