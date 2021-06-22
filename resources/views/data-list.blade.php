@@ -68,22 +68,6 @@
                                     @endforeach
                                 </tbody>
                             </table>
-
-                            {{-- pagination --}}
-                            {{-- <div class="d-flex justify-content-center"> --}}
-                                {{-- {{ $datas->links() }} --}}
-                                {{-- OR --}}
-                                {{-- <nav aria-label="...">
-                                    <ul class="pagination">
-                                        <li class="page-item"><a class="page-link"
-                                                href="{{ $datas->previousPageUrl() }}">Previous</a></li>
-                                        <li class="page-item active"><a
-                                                class="page-link">{{ $datas->currentPage() }}</a></li>
-                                        <li class="page-item"><a class="page-link"
-                                                href="{{ $datas->nextPageUrl() }}">Next</a></li>
-                                    </ul>
-                                </nav>
-                            </div> --}}
                         </div>
                         {{-- <span>Showing {{ $datas->firstItem() }} to {{ $datas->lastItem() }} of {{ $datas->total() }} results</span> --}}
                     </div>
@@ -112,7 +96,6 @@
                 "pagingType": "full_numbers"
             });
         });
-
     </script>
 
 </body>
